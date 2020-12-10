@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap+Condensed:wght@700&family=Asap:wght@700&family=Titillium+Web:wght@700&family=Zilla+Slab+Highlight:wght@700&display=swap');
+header {
+    background-image: url("main.jpeg");
+    background-repeat: ;
+    background-attachment: scroll;
+
+}
+.logo {
+    text-align:left;
+    padding: 15px;
+}
+.logo h2 {
+    font-family: 'Zilla Slab Highlight', cursive;
+    font-size: 37px inherit;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+}
+.logo h3 {
+    font-family:'Asap', sans-serif;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    
+}
+section {
+    background: rgba(108, 108, 108, 0.57);
+    max-width: 800px;
+    margin: 15px;
+    padding: 5px;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+.icons  {
+    width: 30px;
+    height: 30px;
+    margin:auto;
+    display: inline;
+    align: center
+}
+}.icons a {
+    display: block;
+    
+    
+}
