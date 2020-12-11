@@ -1,13 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Asap+Condensed:wght@700&family=Asap:wght@700&family=Titillium+Web:wght@700&family=Zilla+Slab+Highlight:wght@700&display=swap');
 header {
     background-image: url("main.jpeg");
-    background-repeat: ;
-    background-attachment: scroll;
-
+    background-repeat: repeat-x;
+    background-size: cover;
+    position:relative;
+    
+    max-width: 900px;
 }
 .logo {
     text-align:left;
     padding: 15px;
+    
 }
 .logo h2 {
     font-family: 'Zilla Slab Highlight', cursive;
@@ -24,7 +27,7 @@ header {
 }
 section {
     background: rgba(108, 108, 108, 0.57);
-    max-width: 800px;
+    max-width: auto;
     margin: 15px;
     padding: 5px;
     font-family: 'Titillium Web', sans-serif;
@@ -33,15 +36,92 @@ section {
     color: rgb(255, 255, 255);
     text-align: center;
 }
-.icons  {
+.icons img, a{
+    background-color: rgb(255, 255, 255);
     width: 30px;
-    height: 30px;
-    margin:auto;
+    height: 30 px;
+    border: 1px;
+    border-radius: 2px;
     display: inline;
-    align: center
+    margin: auto;
+     
 }
-}.icons a {
+main {
+    background-image: url("second-main.jpeg");
+    background-size: cover;
+    position: relative;
+    max-width: 900px;
+}
+.main-offer {
+    padding: 2px;
+    margin: 5px;
+    with: 218px;
+    heigh: 54px;
+    
+}
+.main-offer h2 {
+    color: rgb(255, 255, 255);
+    display: border-box;
+    font-family: "Asap", sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 2px;
+    padding: 1px;
+}
+.offer-types img {
+    width: 218px;
+    height: 170px;
     display: block;
-    
+    margin: auto;
+}
+.offer-types h3 {
+    font-family: "Asap", sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+    text-align: center;
+    font-weight: bold;
+}
+.offer-types {
+    width: 100%;
+    height:100%;
+    top: 0;
+    left: 0;
+    display: block;
+    margin: auto;
+    position: relative;
+}
+.offer-types p {
+    font-family: "Asap", sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    text-align: center;
+}
+.offer-one, .offer-two, .offer-three {
+    background-color: rgb( 27, 27, 27);
+    padding: 30px;
+    margin: 20px;
+    display: block;
+    text-align: center; 
+    max-width: 272px;
+    max-height: 400;
     
 }
+footer {
+   background-color: rgb(27, 27, 27);
+   max-width: 1024px;
+   max-height: 386px;
+}
+.end  {
+    font-family: "Asap", sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: left;
+    color: rgb(255, 255, 255);
+    margin: 2px;
+}
+}
+
+
+
